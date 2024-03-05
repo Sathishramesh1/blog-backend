@@ -2,7 +2,7 @@ import jwt from "jsonwebtoken";
 import CustomError from "../utils/error.js";
 
 export const protectRoute = (req, res, next) => {
-  const token = req.header("Authorization");
+  const token = req.header("x-auth-token");
 
   if (!token || !token.startsWith("Bearer ")) {
     return res.status(404).send('Token not found');
