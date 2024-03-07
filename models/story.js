@@ -23,8 +23,7 @@ const storySchema = new mongoose.Schema(
     },
     image: {
       type: String,
-      default:
-        "https://img.freepik.com/free-vector/software-code-testing-concept-illustration_114360-8414.jpg?w=740&t=st=1709709779~exp=1709710379~hmac=7bf073be0b0a008ac7fe76336cb6e3f707c1bc9554ef51fc058c1d1a13d3ceda",
+      default:"https://img.freepik.com/free-vector/online-article-concept-illustration_114360-5321.jpg?w=740&t=st=1709817847~exp=1709818447~hmac=cd5cd19a7ff3eb1c871fa9aab03cbee25967868c000b3d8d9b3939130ad4fc9c",
     },
   },
   { timestamps: true }

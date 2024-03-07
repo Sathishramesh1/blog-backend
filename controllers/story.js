@@ -38,7 +38,7 @@ export const addStory = async (req, res) => {
 
 export const getAllStories = async (req, res) => {
   try {
-    // Fetch all stories from your database (assuming you have a "Story" model)
+    
     const stories = await Story.find();
 
     if (!stories) {
