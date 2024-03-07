@@ -1,5 +1,5 @@
 {
-  "name": "simplebloggerapp-backend",
+  "name": "blog-byte",
   "version": "1.0.0",
   "description": "Simple Blogger Application",
   "main": "server.js",
@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon start"
   },
-  "author": "Anandh Kumar",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
